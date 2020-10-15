@@ -1,4 +1,5 @@
 import React from 'react';
+import MyChart from '../Chart/MyChart';
 
 function HomePage() {
   return (
@@ -8,6 +9,11 @@ function HomePage() {
             <input className="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"/>
             <button type="button" className="btn btn-secondary btn-sm">Search</button>
         </form>
+
+        <div>
+            <svg className="myDoughnutChart" width="300" height="150"></svg>
+        </div>
+
         <main id="main">
                 <div className="text-box" role="article">
                   <section>
